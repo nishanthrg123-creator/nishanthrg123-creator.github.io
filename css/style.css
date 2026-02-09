@@ -237,6 +237,30 @@ footer {
     transform: translate(-50%, -50%);
 }
 
+/* ================= HIRE ME BUTTON ================= */
+
+#hire-me {
+    position: fixed;
+    bottom: 90px;
+    right: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    z-index: 9999;
+}
+
+.hire-btn {
+    text-decoration: none;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 600;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: 0.3s;
+    text-align: center;
+}
+
 /* WhatsApp */
 
 .hire-btn.whatsapp {
@@ -267,9 +291,4 @@ footer {
     70% { box-shadow: 0 0 0 12px rgba(255,122,0,0); }
     100% { box-shadow: 0 0 0 0 rgba(255,122,0,0); }
 }
-
-
-
-
-
 

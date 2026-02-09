@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://nishanthrg123-creator.github.io/sitemap.xml

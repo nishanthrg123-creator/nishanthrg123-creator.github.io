@@ -237,6 +237,25 @@ footer {
     transform: translate(-50%, -50%);
 }
 
+/* WhatsApp */
+
+.hire-btn.whatsapp {
+    background: #25D366;
+}
+
+/* Email */
+
+.hire-btn.email {
+    background: #007bff;
+}
+
+/* Hover Effect */
+
+.hire-btn:hover {
+    transform: scale(1.1);
+    opacity: 0.9;
+}
+
 /* Pulse Effect */
 
 .hire-btn {
@@ -248,6 +267,9 @@ footer {
     70% { box-shadow: 0 0 0 12px rgba(255,122,0,0); }
     100% { box-shadow: 0 0 0 0 rgba(255,122,0,0); }
 }
+
+
+
 
 
 
